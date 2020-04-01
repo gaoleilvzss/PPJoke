@@ -1,6 +1,7 @@
 package com.vinsuan.ppjoke.ui.home;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +13,9 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.vinsuan.libnavannotation.FragmentDestination;
 import com.vinsuan.ppjoke.R;
-
+@FragmentDestination(pageUrl = "main/tabs/home",asStarter = true)
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
@@ -30,6 +32,7 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
+        Log.d("jet","oncreate");
         return root;
     }
 }
