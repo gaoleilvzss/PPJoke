@@ -10,6 +10,7 @@ import androidx.navigation.NavGraphNavigator;
 import androidx.navigation.NavigatorProvider;
 import androidx.navigation.fragment.FragmentNavigator;
 
+import com.vinsuan.libcommon.AppGlobals;
 import com.vinsuan.ppjoke.FixFragmentNavigator;
 import com.vinsuan.ppjoke.model.Destination;
 

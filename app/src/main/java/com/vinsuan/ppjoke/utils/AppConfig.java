@@ -4,6 +4,7 @@ import android.content.res.AssetManager;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
+import com.vinsuan.libcommon.AppGlobals;
 import com.vinsuan.ppjoke.model.BottomBar;
 import com.vinsuan.ppjoke.model.Destination;
 

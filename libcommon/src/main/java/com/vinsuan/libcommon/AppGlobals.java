@@ -1,9 +1,9 @@
-package com.vinsuan.ppjoke.utils;
+package com.vinsuan.libcommon;
 
 import android.app.Application;
 
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
+
 public class AppGlobals {
     private static Application sApplication;
 
