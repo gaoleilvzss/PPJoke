@@ -23,9 +23,9 @@
             app:feedText="@{feed.feeds_text}"/>
 
 
-        <!--图片区域-->
-        <com.vinsuan.ppjoke.view.PPImageView
-            android:id="@+id/feed_image"
+        <!--视频区域-->
+        <com.vinsuan.ppjoke.view.ListPlayerView
+            android:id="@+id/list_player_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dp_10"/>
