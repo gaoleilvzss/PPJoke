@@ -85,7 +85,7 @@
             app:icon="@drawable/icon_cell_share"
             app:iconGravity="textStart"
             app:iconPadding="@dimen/dp_4"
-            app:iconTint="color/color_3d3"
+            app:iconTint="@color/color_3d3"
             tools:icon="@drawable/icon_cell_share"
             tools:iconTint="@color/color_3d3"
             tools:text="1000"

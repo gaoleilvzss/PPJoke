@@ -55,10 +55,4 @@ public class Comment implements Serializable {
                 && (ugc != null && ugc.equals(newComment.ugc));
     }
 
-    public Ugc getUgc() {
-        if (ugc == null) {
-            ugc = new Ugc();
-        }
-        return ugc;
-    }
 }

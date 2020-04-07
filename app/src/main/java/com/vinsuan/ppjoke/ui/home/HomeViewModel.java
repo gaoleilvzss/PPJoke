@@ -3,17 +3,15 @@ package com.vinsuan.ppjoke.ui.home;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+import androidx.paging.DataSource;
 
-public class HomeViewModel extends ViewModel {
+import com.vinsuan.ppjoke.AbsViewModel;
+import com.vinsuan.ppjoke.model.Feed;
 
-    private MutableLiveData<String> mText;
+public class HomeViewModel extends AbsViewModel<Feed> {
 
-    public HomeViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
-    }
-
-    public LiveData<String> getText() {
-        return mText;
+    @Override
+    public DataSource createDataSource() {
+        return null;
     }
 }

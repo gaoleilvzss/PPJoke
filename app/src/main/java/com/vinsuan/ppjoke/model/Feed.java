@@ -45,16 +45,7 @@ public class Feed implements Serializable {
     public Comment topComment;
     public Ugc ugc;
 
-    public Ugc getUgc() {
-        if (ugc == null) {
-            ugc = new Ugc();
-        }
-        return ugc;
-    }
 
-    public User getAuthor() {
-        return author;
-    }
 
     @Override
     public boolean equals(@Nullable Object obj) {

@@ -37,7 +37,7 @@
             app:tagText="@{feed.activityText}"/>
 
         <include layout="@layout/layout_feed_top_comment"
-            app:comment="@{feed.topComment}"/>
+            app:commnet="@{feed.topComment}"/>
 
         <include layout="@layout/layout_feed_interraction"
             app:feed="@{feed}"/>
